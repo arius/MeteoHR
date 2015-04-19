@@ -33,11 +33,10 @@ var app = {
       var orientation = "";
       if(orientationChange() == 'portrait')
         orientation = "horizontal";
-      else{
+      else
          orientation = "vertical";
-      }
-       
-       
+   
+      $("#picture img").panzoom();
 
       $( "#slider" ).slider({
         min: 3,

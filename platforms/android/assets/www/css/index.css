@@ -34,6 +34,8 @@ body {
 
 }
 
+div#picture img { -webkit-transform:translate3d(0,0,0) }
+
 #slider{
   margin:0.5em;  
 }
@@ -45,10 +47,6 @@ body {
 }
 
 
-#picture img {
-  width: 100%;
-
-}
 
 .control{
 
