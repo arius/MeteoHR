@@ -36,7 +36,7 @@ var app = {
       else
          orientation = "vertical";
    
-      $("#picture img").panzoom("zoom");
+      $("#picture img").panzoom();
 
       $( "#slider" ).slider({
         min: 3,
